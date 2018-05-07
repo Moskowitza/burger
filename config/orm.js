@@ -40,6 +40,7 @@ function objToSql(ob) {
 }
 
 // Object for all our SQL statement functions.
+//cb is Call Back function
 var orm = {
   selectAll: function(tableInput, cb) {
     var queryString = "SELECT * FROM " + tableInput + ";";
@@ -103,5 +104,5 @@ var orm = {
   }
 };
 
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (burger.js).
 module.exports = orm;
