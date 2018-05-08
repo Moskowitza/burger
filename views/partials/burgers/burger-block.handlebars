@@ -1,0 +1,10 @@
+<li>
+	{{!-- Name of the Burger --}}
+	{{name}}
+{{!-- Action Buttons that go next to each Name --}}
+	<button class="change-devoured" data-id="{{id}}" data-neweaten="{{eat}}">
+		{{#if eat}}Yum Yum!{{else}}All Gone!{{/if}}
+	</button>
+{{!-- delete button created here for each burger --}}
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li>
