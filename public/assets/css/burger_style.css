@@ -17,4 +17,18 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
-  
+  h1{
+    margin: auto;
+  }
+  #menu {
+    float: left;
+  }
+  #myMenu{
+    float: left;
+  }
+  #add{
+    float: left;
+  }
+  button {
+    float: right;
+  }
