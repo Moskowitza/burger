@@ -1,10 +1,12 @@
 <li>
 	{{!-- Name of the Burger --}}
-	{{name}}
+{{@index}}	{{name}}
 {{!-- Action Buttons that go next to each Name. Either Yum Yum for Menu OR AllGone for Eat--}}
+	{{#if eat}}
 	<button class="change-devoured" data-id="{{id}}" data-neweaten="{{eat}}">
-		{{#if eat}}Yum Yum!{{else}}Send to Menu!{{/if}}
+		Yum Yum!
 	</button>
+	{{/if}}
 {{!-- delete button created here for each burger --}}
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+	{{!-- <button class="delete-burger" data-id="{{this.id}}">DELETE!</button> --}}
 </li>
