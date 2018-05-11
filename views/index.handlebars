@@ -4,25 +4,25 @@
 <div id="menu">
 <h2>Burger Menu!</h2>
 
-<ul>
+<ol>
   {{!-- each burger or burgers --}}
   {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burger-block eat=true}}
     {{/unless}}
   {{/each}}
-</ul>
+</ol>
 </div>
 
 <div id="myMenu">
 <h2>Burgers to Eat!</h2>
-<ul>
+<ol>
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers/burger-block eat=false}}
     {{/if}}
   {{/each}}
-</ul>
+</ol>
 </div>
 <div id="add">
 <h2>Add a Burger</h2>
