@@ -19,6 +19,10 @@ li {
   }
   h1{
     text-align: center;
+<<<<<<< HEAD
+=======
+    background-color: bisque;
+>>>>>>> 09f7b6385d995a1601966df3564e831db799ca9e
     margin: auto;
   }
   #menu {
