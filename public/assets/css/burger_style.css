@@ -19,10 +19,7 @@ li {
   }
   h1{
     text-align: center;
-<<<<<<< HEAD
-=======
     background-color: bisque;
->>>>>>> 09f7b6385d995a1601966df3564e831db799ca9e
     margin: auto;
   }
   #menu {
@@ -36,4 +33,8 @@ li {
   }
   button {
     float: right;
+  }
+  body {
+    /* background-image: linear-gradient(to right, red, orange, yellow, white) */
+  background-image: url("assets/img/burger.png");
   }
