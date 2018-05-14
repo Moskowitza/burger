@@ -19,22 +19,45 @@ li {
   }
   h1{
     text-align: center;
-    background-color: bisque;
+    background-color: lightpink;
     margin: auto;
   }
   #menu {
     float: left;
+    background-color: lightpink;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: auto;
+    height: auto;  
+
   }
   #myMenu{
     float: left;
+    background-color: lightpink;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
+
   }
   #add{
     float: left;
+    background-color: lightpink;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: auto; 
   }
   button {
     float: right;
   }
   body {
     /* background-image: linear-gradient(to right, red, orange, yellow, white) */
-  background-image: url("assets/img/burger.png");
+  background-image: url("/assets/img/burger.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   }
