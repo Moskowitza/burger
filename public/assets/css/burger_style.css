@@ -34,3 +34,6 @@ li {
   button {
     float: right;
   }
+  body{
+    background-image: url("/assets/img/burger.png");
+  }
