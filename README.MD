@@ -7,3 +7,5 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 ### Deployed
 
 A working version of the app is on [heroku](https://lit-scrubland-47107.herokuapp.com/)
+
+[screenshot](/Users/aaronmoskowitz/burger)/ImageReadMe/screenShot.png)
